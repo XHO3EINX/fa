@@ -63,7 +63,7 @@ function run(msg, matches)
     
 〰〰〰〰〰〰〰
 
-✨سایت اصلی: Tarfand.Ir ✨
+ Fuck Off
 </i>]]
 end
 
