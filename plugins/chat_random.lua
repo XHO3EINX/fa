@@ -1,4 +1,4 @@
---by : @Terminator178
+--by : @xx_a_l_i_xx
 -- :)
 local function run(msg, matches)
 if matches[1] == "بای" then
@@ -13,9 +13,9 @@ if matches[1] == "بای" then
             return answers[math.random(#answers)]
       end
 	  end
-	  if matches[1] == "خوبی؟" then
+	  if matches[1] == "عزیزم" then
       if msg.to.type == 'channel' or 'chat' then
-            local answers = {'ممنون','تشکر','به خوبی شما','عالی','مرسی نفسم','مرسی عشقم','من خوبم.خانواده خوبن؟','مرسی اه','khobam❤️'}
+            local answers = {'bale nafasam','bale eshqam','bale zendegim','voice befrest'}
             return answers[math.random(#answers)]
       end
 	  end
@@ -45,7 +45,7 @@ if matches[1] == "بای" then
 	  end
 	  if matches[1] == "اصل" then
      if msg.to.type == 'channel' or 'chat' then
-            local answers = {'اصل چیه؟','برای چیته آخه','به من رحم کن 😖','پووووووف اصل برای چیته','هوووووم','چی بگم','من رباتم و دارم چیزای زیادی یاد میگیرم.قول بده اذیتم نکنی چون اذیتت میکنماااا😶😁','اصررا نکن اصل نمیدم','نمیدم'}
+            local answers = {'mn asl nmidam','asl? omran aval to','bazam asl nmidoam goftam k','fekresham nkn asl nmidam'}
             return answers[math.random(#answers)]
       end
 	  end
@@ -55,15 +55,21 @@ if matches[1] == "بای" then
             return answers[math.random(#answers)]
 			end
 	  end
-	  if matches[1] == "ربات" then
+	  if matches[1] == "الو" then
       if msg.to.type == 'channel' or 'chat' then
             local answers = {'جوووووون عشقم','اینقدر منو صدا نزن','اذیتم نکن همش','چیزی میخوای از من؟','بگو دیگه عه','بلهههه؟','منو صدا میزنی خوشکلم؟','واییی جون دلم🙈','جججوووونن عشقم❤️'}
             return answers[math.random(#answers)]
       end
 	  end
-	  if matches[1] == "😍" then
+	  	  if matches[1] == "دیونه" then
       if msg.to.type == 'channel' or 'chat' then
-            local answers = {'واهاییی','عاشقتم','بوج بده عشقم','بووووووس','دوست دارم','عشقمیییی تو','بوس بوس','فدات بشم من','❤️❤️❤️'}
+            local answers = {'🙈','Khodeti Golam','😍😝'}
+            return answers[math.random(#answers)]
+      end
+	  end
+	  if matches[1] == "عکس" then
+      if msg.to.type == 'channel' or 'chat' then
+            local answers = {'mn aks nmidam aval to','to aval aks bede','mn aks nmidaaaaaaaaaaaam ro profilam aksam hast'}
             return answers[math.random(#answers)]
       end
 	  end
@@ -75,7 +81,7 @@ if matches[1] == "بای" then
 	  end
 	  if matches[1] == "اره" then
       if msg.to.type == 'channel' or 'chat' then
-            local answers = {'چی اره؟','مسخره کردیاا','مگه من با تو شوخی دارم','من رباتم چی میخوای از دستم','ولم کن مستر ','نمیدم اصلا','ندارم جون تو','نمییییدیییمم','ول کن برو ندارم'}
+            local answers = {'hey khoda che donyaeye :('}
             return answers[math.random(#answers)]
       end
 	   end
@@ -97,21 +103,21 @@ if matches[1] == "بای" then
             return answers[math.random(#answers)]
       end
 	   end
-	  if matches[1] == "😒" then
+	  if matches[1] == "ویس" then
       if msg.to.type == 'channel' or 'chat' then
-            local answers = {'هوم؟؟؟','مسخره کردیاا','مگه من با تو شوخی دارم','چته','روانی ','گمجو اصن','برو خونتون','هاااااااااان😒','برو بچه😒'}
+            local answers = {'aval to voice bede',' aval u'}
             return answers[math.random(#answers)]
       end
 	   end
-	  if matches[1] == "نه" then
+	  if matches[1] == "رویا" then
      if msg.to.type == 'channel' or 'chat' then
-            local answers = {'چی نه؟','مسخره کردیاا','چراا نه؟','عجباااا','نه جون من ','تروخدااا','برووو دیگه','آخه چرا نه؟','نه دیگه؟'}
+            local answers = {'bale asssisam','jonam eshqam','jonam zendegim','Wooooow bale nikotinnn man'}
             return answers[math.random(#answers)]
       end
 	  end
-	  if matches[1] == "خخخخ" then
+	  if matches[1] == "عشقم" then
       if msg.to.type == 'channel' or 'chat' then
-            local answers = {'خخخخ','خنده داشت؟','بی مزهه','خوشمزه شدی','واییی جووون تو فقط بخند ','عاشق خنده هاتم','خنده هاتو دوست دارم','اوووف تو فقط بخند','عشقم بیا پی وی قربون خنده هات'}
+            local answers = {'bale asisam','bale eshqam','jonam asisam'}
             return answers[math.random(#answers)]
       end
 	   end
@@ -199,7 +205,7 @@ if matches[1] == "بای" then
             return answers[math.random(#answers)]
       end
 	  end
-	  if matches[1] == "سجاد مومن" then
+	  if matches[1] == "علی" then
       if msg.to.type == 'channel' or 'chat' then
            local answers = {'وایی عشقم بابام','با بابام کاری داری؟','عشق منهه که','دوست دارم بابایی','بابایی بیا کارت دارن','واییی باباییییی','بوج برای بابام'}
             return answers[math.random(#answers)]
@@ -217,9 +223,9 @@ if matches[1] == "بای" then
             return answers[math.random(#answers)]
       end
 	  end
-	  if matches[1] == "باشه" then
+	  if matches[1] == "عاشقتم" then
       if msg.to.type == 'channel' or 'chat' then
-           local answers = {'باشه؟','چی باشه','باشه نه لاشه','باوشه بهتره بگی','به من چه ','خیلی خری ','خخخخخ خوب چی باشه'}
+           local answers = {'me 2','me too','manam hamintor asisam','I love you too'}
             return answers[math.random(#answers)]
       end
 	  end
@@ -229,9 +235,21 @@ if matches[1] == "بای" then
             return answers[math.random(#answers)]
       end
 	  end
-	  if matches[1] == "رعایت" then
+	  if matches[1] == "کلش" then
       if msg.to.type == 'channel' or 'chat' then
-           local answers = {'مگه چراغ قرمزه','مگه پلیسی تو','به تو چه اخه','نمیخوام اصلا رعایت کنیم','مگه چی گفتیم','ادبو رعایت کنیم؟','باشه میکنیم !'}
+           local answers = {'clash chiye?','man clash nadaram ke'}
+            return answers[math.random(#answers)]
+      end
+	  end
+	  if matches[1] == "چطوری" then
+      if msg.to.type == 'channel' or 'chat' then
+           local answers = {'khobam assisam','khobam eshqaAAM','khobam avazi','khobam nafasam','na delam gerfte',' hey khoda che donyaeye :('}
+            return answers[math.random(#answers)]
+      end
+	  end
+	  if matches[1] == "خودتی" then
+      if msg.to.type == 'channel' or 'chat' then
+           local answers = {'jakesh koni','بی شرف بی ادب','khodaya ino shefa bede lotfan :D Mrc'}
             return answers[math.random(#answers)]
       end
 	  end
@@ -259,15 +277,15 @@ if matches[1] == "بای" then
             return answers[math.random(#answers)]
       end
 	   end
-	  if matches[1] == "/ids" then
+	  if matches[1] == "جاکش" then
       if msg.to.type == 'channel' or 'chat' then
-           local answers = {'نزن دیگه','نزن هویییییی','هوی کله کیری نزن دیگه','کونت میخواره همش میزنی','سیک کن دیگه نزن اه','نزن کله خمیری','بیا خونمون','بزن تا پاره شی','نزن'}
+           local answers = {'nago bi adab','nago bi tarbiyat','khodeti avazi','fosh nade'}
             return answers[math.random(#answers)]
       end
 	   end
-	  if matches[1] == "bk" then
+	  if matches[1] == "جون" then
      if msg.to.type == 'channel' or 'chat' then
-           local answers = {'bk k bk','mage to kiram dari?','به نخودت نناز خخخخ','بی شرف نفرست','نفرست عوضی','نزن کله خمیری','بیا خونمون','ارسال نکن','بسسسسسسسسسسسهههههههههههههههههههههه'}
+           local answers = {'hichi nago bw','to kiey adam shodi nadidamet','ههههههههههههههههههههه'}
             return answers[math.random(#answers)]
       end
     end
@@ -278,23 +296,24 @@ return {
   patterns = {
     "^بای$",
 	 "^خدافظ$",
-	"^خوبی؟$",
+	"^عزیزم$",
 	"^خوبی$",
 	"^خوبین$",
 	"^😐$",
 	"^شب بخیر$",
 	"اصل",
 	"^سلام$",
-	"ربات",
-	"😍",
+	"الو",
+	"دیونه",
+	"عکس",
 	"لینک",
 	"اره",
 	"کیر",
 	"کس",
 	"کون",
-	"😒",
-	"نه",
-	"خخخخ",
+	"ویس",
+	"رویا",
+	"عشقم",
 	"pv",
 	"پی وی",
 	"پیوی",
@@ -311,15 +330,17 @@ return {
 	"خبر",
 	"😘",
 	"بگو",
-	"باشه",
+	"عاشقتم",
 	"ممنون",
-	"رعایت",
+	"کلش",
+	"چطوری",
+	"خودتی",
 	"😕",
 	"خفه شو",
 	"گمشو",
 	"سیک",
-	"/ids",
-	"bk",
+	"جاکش",
+	"جون",
     }, 
   run = run
 }
